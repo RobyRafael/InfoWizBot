@@ -88,7 +88,7 @@ This project is a Flask application that serves as a server with HTTPS on AWS EC
   ```bash
   sudo yum install python3 -y
   sudo yum install python3-pip -y
-  pip install -r requirements.txt
+  pip3 install -r requirements.txt
   ```
 
 ### 6. Configure the Bot
@@ -100,7 +100,7 @@ This project is a Flask application that serves as a server with HTTPS on AWS EC
 
 - Start the Flask application:
   ```bash
-  python app.py
+  python3 app.py
   ```
 
 ## Usage
