@@ -1,6 +1,6 @@
 class Config:
     TELEGRAM_BOT_TOKEN = '7384156638:AAE_oFaxF6S-eta7wjFchMnyprad3Lq_FOs'
-    CHAT_ID = '-4977965657'  # Your group chat ID from the response
+    CHAT_ID = '-4954140947'  # Your group chat ID from the response
     PASSWORD = 'Kribo'  # Change this to your secure password
     API_URL = 'https://api.telegram.org/bot{}/sendMessage'.format(TELEGRAM_BOT_TOKEN)
     DEBUG = True

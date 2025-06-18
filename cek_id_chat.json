@@ -1,0 +1,245 @@
+{
+    "ok": true,
+    "result": [
+        {
+            "update_id": 710061123,
+            "message": {
+                "message_id": 2,
+                "from": {
+                    "id": 5863203861,
+                    "is_bot": false,
+                    "first_name": "Muzakky",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": 5863203861,
+                    "first_name": "Muzakky",
+                    "type": "private"
+                },
+                "date": 1750159476,
+                "text": "sks"
+            }
+        },
+        {
+            "update_id": 710061124,
+            "message": {
+                "message_id": 3,
+                "from": {
+                    "id": 5863203861,
+                    "is_bot": false,
+                    "first_name": "Muzakky",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": 5863203861,
+                    "first_name": "Muzakky",
+                    "type": "private"
+                },
+                "date": 1750159485,
+                "text": "/download",
+                "entities": [
+                    {
+                        "offset": 0,
+                        "length": 9,
+                        "type": "bot_command"
+                    }
+                ]
+            }
+        },
+        {
+            "update_id": 710061125,
+            "message": {
+                "message_id": 4,
+                "from": {
+                    "id": 5863203861,
+                    "is_bot": false,
+                    "first_name": "Muzakky",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": -4977965657,
+                    "title": "InfoWizBot",
+                    "type": "group",
+                    "all_members_are_administrators": true,
+                    "accepted_gift_types": {
+                        "unlimited_gifts": false,
+                        "limited_gifts": false,
+                        "unique_gifts": false,
+                        "premium_subscription": false
+                    }
+                },
+                "date": 1750212355,
+                "group_chat_created": true
+            }
+        },
+        {
+            "update_id": 710061126,
+            "message": {
+                "message_id": 8,
+                "from": {
+                    "id": 5863203861,
+                    "is_bot": false,
+                    "first_name": "Muzakky",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": -4977965657,
+                    "title": "InfoWizBot",
+                    "type": "group",
+                    "all_members_are_administrators": true,
+                    "accepted_gift_types": {
+                        "unlimited_gifts": false,
+                        "limited_gifts": false,
+                        "unique_gifts": false,
+                        "premium_subscription": false
+                    }
+                },
+                "date": 1750220320,
+                "new_chat_photo": [
+                    {
+                        "file_id": "AgACAgUAAxkBAAMIaFI-IE4qkHnVXBYlVph50iS6vmUAAn3TMRuwKJFWXVOoaNm5LzkBAAMCAANhAAM2BA",
+                        "file_unique_id": "AQADfdMxG7AokVYAAQ",
+                        "file_size": 8328,
+                        "width": 160,
+                        "height": 160
+                    },
+                    {
+                        "file_id": "AgACAgUAAxkBAAMIaFI-IE4qkHnVXBYlVph50iS6vmUAAn3TMRuwKJFWXVOoaNm5LzkBAAMCAANiAAM2BA",
+                        "file_unique_id": "AQADfdMxG7AokVZn",
+                        "file_size": 16674,
+                        "width": 320,
+                        "height": 320
+                    },
+                    {
+                        "file_id": "AgACAgUAAxkBAAMIaFI-IE4qkHnVXBYlVph50iS6vmUAAn3TMRuwKJFWXVOoaNm5LzkBAAMCAANjAAM2BA",
+                        "file_unique_id": "AQADfdMxG7AokVYB",
+                        "file_size": 28152,
+                        "width": 640,
+                        "height": 640
+                    }
+                ]
+            }
+        },
+        {
+            "update_id": 710061127,
+            "message": {
+                "message_id": 9,
+                "from": {
+                    "id": 6139769824,
+                    "is_bot": false,
+                    "first_name": "A",
+                    "username": "buburayamenakoi"
+                },
+                "chat": {
+                    "id": -4977965657,
+                    "title": "InfoWizBot",
+                    "type": "group",
+                    "all_members_are_administrators": true,
+                    "accepted_gift_types": {
+                        "unlimited_gifts": false,
+                        "limited_gifts": false,
+                        "unique_gifts": false,
+                        "premium_subscription": false
+                    }
+                },
+                "date": 1750220331,
+                "new_chat_participant": {
+                    "id": 6139769824,
+                    "is_bot": false,
+                    "first_name": "A",
+                    "username": "buburayamenakoi"
+                },
+                "new_chat_member": {
+                    "id": 6139769824,
+                    "is_bot": false,
+                    "first_name": "A",
+                    "username": "buburayamenakoi"
+                },
+                "new_chat_members": [
+                    {
+                        "id": 6139769824,
+                        "is_bot": false,
+                        "first_name": "A",
+                        "username": "buburayamenakoi"
+                    }
+                ]
+            }
+        },
+        {
+            "update_id": 710061128,
+            "message": {
+                "message_id": 1,
+                "from": {
+                    "id": 1087968824,
+                    "is_bot": true,
+                    "first_name": "Group",
+                    "username": "GroupAnonymousBot"
+                },
+                "sender_chat": {
+                    "id": -1002381580209,
+                    "title": "InfoWizBot",
+                    "type": "supergroup"
+                },
+                "chat": {
+                    "id": -1002381580209,
+                    "title": "InfoWizBot",
+                    "type": "supergroup"
+                },
+                "date": 1750220351,
+                "migrate_from_chat_id": -4977965657
+            }
+        },
+        {
+            "update_id": 710061129,
+            "message": {
+                "message_id": 10,
+                "from": {
+                    "id": 5863203861,
+                    "is_bot": false,
+                    "first_name": "Muzakky",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": -4977965657,
+                    "title": "InfoWizBot",
+                    "type": "group",
+                    "all_members_are_administrators": false,
+                    "accepted_gift_types": {
+                        "unlimited_gifts": false,
+                        "limited_gifts": false,
+                        "unique_gifts": false,
+                        "premium_subscription": false
+                    }
+                },
+                "date": 1750220351,
+                "migrate_to_chat_id": -1002381580209
+            }
+        },
+        {
+            "update_id": 710061130,
+            "message": {
+                "message_id": 11,
+                "from": {
+                    "id": 5863203861,
+                    "is_bot": false,
+                    "first_name": "Muzakky",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": -4954140947,
+                    "title": "InfoWizBot",
+                    "type": "group",
+                    "all_members_are_administrators": true,
+                    "accepted_gift_types": {
+                        "unlimited_gifts": false,
+                        "limited_gifts": false,
+                        "unique_gifts": false,
+                        "premium_subscription": false
+                    }
+                },
+                "date": 1750221068,
+                "group_chat_created": true
+            }
+        }
+    ]
+}
