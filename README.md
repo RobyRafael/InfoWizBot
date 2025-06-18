@@ -100,6 +100,7 @@ This project is a Flask application that serves as a server with HTTPS on AWS EC
 
 - Start the Flask application:
   ```bash
+  pip3 install --user cryptography
   python3 app.py
   ```
 
