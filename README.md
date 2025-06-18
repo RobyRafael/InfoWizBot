@@ -86,6 +86,8 @@ This project is a Flask application that serves as a server with HTTPS on AWS EC
 
 - Install the required Python packages:
   ```bash
+  sudo yum install python3 -y
+  sudo yum install python3-pip -y
   pip install -r requirements.txt
   ```
 
