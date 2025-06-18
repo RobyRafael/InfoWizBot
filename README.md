@@ -88,20 +88,39 @@ This project is a Flask application that serves as a server with HTTPS on AWS EC
   ```bash
   sudo yum install python3 -y
   sudo yum install python3-pip -y
+  
+  # Install compatible versions for Amazon Linux 2
+  sudo pip3 install 'urllib3<2.0' 'requests<3.0' flask
+  
+  # Or install from requirements.txt
   pip3 install -r requirements.txt
   ```
 
 ### 6. Configure the Bot
 
-- Create a new bot using BotFather on Telegram and obtain the API token.
-- Update `config.py` with your bot token and any other necessary configurations.
+- Create a new bot using BotFather on Telegram:
+  1. Open Telegram and search for @BotFather
+  2. Send `/newbot` command
+  3. Follow instructions to create your bot
+  4. Copy the bot token
+
+- Get your Chat ID:
+  1. Delete any existing webhook: `https://api.telegram.org/bot<YOUR_TOKEN>/deleteWebhook`
+  2. Send a message to your bot
+  3. Visit: `https://api.telegram.org/bot<YOUR_TOKEN>/getUpdates`
+  4. Find your chat ID in the response
+
+- Update `config.py` with your configurations
 
 ### 7. Run the Application
 
 - Start the Flask application:
   ```bash
+  # Install cryptography for SSL support
   pip3 install --user cryptography
-  python3 app.py
+  
+  # Run with sudo for SSL certificate access
+  sudo python3 app.py
   ```
 
 ## Usage

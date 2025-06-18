@@ -37,4 +37,5 @@ if __name__ == '__main__':
     context.load_cert_chain('/etc/ssl/certs/apache-selfsigned.crt', 
                            '/etc/ssl/private/apache-selfsigned.key')
     
-    app.run(host='0.0.0.0', port=5000, ssl_context=context, debug=True)
+    # Use port 443 instead of 5000
+    app.run(host='0.0.0.0', port=443, ssl_context=context, debug=True)
