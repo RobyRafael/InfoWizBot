@@ -77,6 +77,7 @@ This project is a Flask application that serves as a server with HTTPS on AWS EC
 
 - Clone this repository to your EC2 instance:
   ```bash
+  sudo yum install git -y
   git clone <repository-url>
   cd InfoWizBot2
   ```
