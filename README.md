@@ -138,3 +138,52 @@ Example payload:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+📋 Cara Penggunaan Base64:
+1. Kirim Text Message (seperti biasa):
+    curl -k -X POST https://13.250.9.71:443/send_notification \
+    -H "Content-Type: application/json" \
+    -d '{"password": "Kribo", "message": "Hello World!"}'
+
+2. Kirim Photo Base64:
+    curl -k -X POST https://13.250.9.71:443/send_notification \
+      -H "Content-Type: application/json" \
+      -d '{
+        "password": "Kribo",
+        "file_base64": "/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAABAAEDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAI",
+        "file_type": "photo",
+        "caption": "This is a Base64 photo!",
+        "filename": "photo.jpg"
+      }'
+
+3. Kirim Video Base64:
+    curl -k -X POST https://13.250.9.71:443/send_notification \
+      -H "Content-Type: application/json" \
+      -d '{
+        "password": "Kribo",
+        "file_base64": "AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAAIZnJlZQAACKBtZGF0AAAC...",
+        "file_type": "video",
+        "caption": "Video from Base64",
+        "filename": "video.mp4"
+      }'
+
+4. Kirim Document Base64:
+    curl -k -X POST https://13.250.9.71:443/send_notification \
+      -H "Content-Type: application/json" \
+      -d '{
+        "password": "Kribo",
+        "file_base64": "JVBERi0xLjQKJdPr6eEKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovT3V0bGluZXMgMiAwIFIKL1BhZ2VzIDMgMCBSCj4+CmVuZG9iag==",
+        "file_type": "document",
+        "caption": "PDF Document",
+        "filename": "document.pdf"
+      }'
+
+5. Kirim Photo dari URL:
+    curl -k -X POST https://13.250.9.71:443/send_notification \
+      -H "Content-Type: application/json" \
+      -d '{
+        "password": "Kribo",
+        "photo_url": "https://picsum.photos/800/600",
+        "caption": "Random photo from URL"
+      }'
